@@ -1,0 +1,131 @@
+*{
+    font-family: "outfit", sans-serif;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    height: 100vw;
+    width: 100vw;
+    background-image: url(../images/ethereum_jar\ copy.png);
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+}
+
+.logo{
+
+    letter-spacing: 3px;
+    color: rgb(200, 235, 255);
+    font-size: 35px;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(20, 95, 117);
+}
+
+nav ul li{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+nav ul li a{
+
+    color: rgb(200, 235, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    transition: .4s;
+    color: #B33F40;
+
+}
+
+.btn{
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color:rgb(20, 95, 117) ;
+    color:rgb(200, 235, 255);
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+.btn:hover{
+    transition: .4s;
+    transform: scale(1.2);
+}
+
+.portfolio{
+    background-image: url(../images/alessio-soggetti-PdGBci-4jR8-unsplash.jpg) ;
+    height: 100vw;
+    width: 100vw;
+    background-size: cover;
+}
+
+.logo_1{
+    letter-spacing: 3px;
+    color: rgb(20, 95, 117);
+    font-size: 35px;
+    cursor: pointer;
+}
+.a_m{
+    color:rgb(200, 235, 255);
+}
+
+.my_info{
+
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 5vw;
+}
+.greetings{
+
+    font-family:Satisfy;
+    font-size: 3vw;
+}
+
+.name{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    font-size: 4vw;
+}
+
+div div table tr th{
+    padding-top:10vw;
+    padding-bottom: 1vw;
+}
+
+div div table tr td{
+    padding-right:15vw;
+    padding-left: 15vw;
+    padding-bottom: 3vw;
+}
+div div table tr td span{
+    color: black;
+    font-weight: bold;
+}
+
+.education{
+
+    text-align: center;
+}
+
+div nav h2 a{
+    text-decoration: none;
+    color: rgb(20, 95, 117);
+
+}
